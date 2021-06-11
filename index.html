@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment 3</title>
+  <script type="text/javascript">
+        function submit(){
+           document.getElementById('id1').style.backgroundColor='#000000';
+		   document.getElementById('id1').style.color='#ffffff';
+		   
+		   document.getElementById('id2').style.backgroundColor='#000000';
+		   document.getElementById('id2').style.color='#ffffff';
+		   
+		   document.getElementById('id3').style.backgroundColor='#000000';
+		   document.getElementById('id3').style.color='#ffffff';
+		   
+		   document.getElementById('id4').style.backgroundColor='#000000';
+		   document.getElementById('id4').style.color='#ffffff';
+		   
+		   document.getElementById('id5').style.backgroundColor='#000000';
+		   document.getElementById('id5').style.color='#ffffff';
+        }
+  </script>
+  <style>
+	table {
+    border-collapse: collapse;
+	}
+ </style>
+</head>
+<body>	
+	<table border="1" width="25%" class="zebraStripe">
+      <tr height="40px"><td>Before</td><td>After</td></tr>
+      <tr>
+		<td>
+			<table border="1">
+				<tr><th>Name</th><th>Bounces</th></tr>
+				<tr><td>Tendai</td><td>7</td></tr>
+				<tr><td>Kudzai</td><td>13</td></tr>
+				<tr><td>Taurai</td><td>3</td></tr>
+				<tr><td>Nyika</td><td>1000</td></tr>
+			</table>
+			<table border="1">
+				<tr><th>Name</th><th>Favourite Dish</th></tr>
+				<tr><td>Tendai</td><td>Sadza Madora</td></tr>
+				<tr><td>Kudzai</td><td>Sadza Chicken</td></tr>
+				<tr><td>Taurai</td><td>Gango</td></tr>
+			</table>
+		</td>
+        <td>
+			<table border="1">
+				<tr id="id1"><th>Name</th><th>Bounces</th></tr>
+				<tr><td>Tendai</td><td>7</td></tr>
+				<tr id="id2"><td>Kudzai</td><td>13</td></tr>
+				<tr><td>Taurai</td><td>3</td></tr>
+				<tr id ="id3"><td>Nyika</td><td>1000</td></tr>
+			</table>
+			<table border="1">
+				<tr id="id4"><th>Name</th><th>Favourite Dish</th></tr>
+				<tr><td>Tendai</td><td>Sadza Madora</td></tr>
+				<tr id="id5"><td>Kudzai</td><td>Sadza Chicken</td></tr>
+				<tr><td>Taurai</td><td>Gango</td></tr>
+    			</table>
+        </td>
+      </tr>
+    </table><br>
+	<input type="button" value="Display Zebra Stripes" onclick="submit();">
+</body>
+</html>
